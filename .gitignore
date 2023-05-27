@@ -1,0 +1,11 @@
+/*
+.*
+!/ice/
+!/.gitattributes
+!/.gitignore
+!/CMakeLists.txt
+!/CMakePresets.json
+!/main.cpp
+!/main.manifest
+!/main.rc
+!/makefile
