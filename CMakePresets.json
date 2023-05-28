@@ -10,11 +10,13 @@
       "name": "default",
       "generator": "Ninja Multi-Config",
       "binaryDir": "${sourceDir}/build/${presetName}",
+      "installDir": "${sourceDir}/modules/${presetName}",
       "toolchainFile": "$env{ACE}/toolchain.cmake",
       "cacheVariables": {
         "CMAKE_EXPERIMENTAL_CXX_MODULE_CMAKE_API": "2182bf5c-ef0d-489a-91da-49dbc3090d2a",
         "CMAKE_EXPERIMENTAL_CXX_MODULE_DYNDEP": "1",
         "CMAKE_EXPORT_COMPILE_COMMANDS": false,
+        "CMAKE_INSTALL_RPATH_USE_LINK_PATH": true,
         "VCPKG_TARGET_TRIPLET": "${presetName}"
       },
       "warnings": {

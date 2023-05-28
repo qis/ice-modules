@@ -7,6 +7,9 @@ all: build
 run: build
 	build/linux-shared/Debug/main
 
+install: build
+	cmake --install build/linux-shared --config Debug
+
 build: configure
 	cmake --build build/linux-shared --config Debug
 
@@ -18,4 +21,4 @@ build/%/build.ninja: CMakeLists.txt CMakePresets.json
 clean:
 	rm -rf build
 
-.PHONY: all run build configure clean
+.PHONY: all run install build configure clean

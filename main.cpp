@@ -1,5 +1,5 @@
-import std;
-import ice;
+#include <iostream>
+import ice.example;
 
 int main(int argc, char* argv[])
 {

@@ -1,6 +1,4 @@
-module;
-
-export module ice.example:modify;
+module ice.example:modify;
 
 namespace ice::example {
 

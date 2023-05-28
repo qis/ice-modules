@@ -1,12 +1,12 @@
 module;
-import std.format;
-import std.string;
-
-export module ice.example:format;
-
+#include <format>
+#include <string>
+module ice.example:format;
 import :modify;
 
 namespace ice::example {
+
+extern int modify(int);
 
 std::string format(int value)
 {

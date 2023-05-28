@@ -1,6 +1,5 @@
 module;
-import std.string;
-
+#include <string>
 export module ice.example;
 
 export namespace ice::example {
