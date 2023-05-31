@@ -1,0 +1,14 @@
+/*
+.*
+!/src/
+!/.clangd
+!/.clang-format
+!/.clang-tidy
+!/.gitattributes
+!/.gitignore
+!/CMakeLists.txt
+!/CMakePresets.json
+!/main.cpp
+!/main.manifest
+!/main.rc
+!/makefile
